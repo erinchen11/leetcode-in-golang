@@ -14,6 +14,7 @@ func TwoSum(nums []int, target int) []int {
 			return []int{index, k}
 		}
 		//如果不存在，則建立映射
+		// 即將該差值和索引存入 map
 		table[v] = k
 	}
 	return nil

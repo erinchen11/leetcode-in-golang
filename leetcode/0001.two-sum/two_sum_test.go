@@ -44,6 +44,7 @@ func Test_TwoSum(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
+			// if 初始值; condition (沒有i++)
 			if got := TwoSum(tt.args.nums, tt.args.target); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("TwoSum() = %v, want %v", got, tt.want)
 			}

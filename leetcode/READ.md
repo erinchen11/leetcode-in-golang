@@ -1,14 +1,12 @@
 # 
 
 ### Question
-
+ 
 
 ### Example1 :
 
 
-
 ### Example 2 :
-
 
 ### Example 3 :
 
@@ -19,10 +17,11 @@
 
 ### 思路
 
+### Hint
 
 
-#### Topics : 
-#### Difficulty : 
+#### Topics : Array
+#### Difficulty : Easy
 
 
 

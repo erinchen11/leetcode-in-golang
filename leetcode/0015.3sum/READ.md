@@ -1,35 +1,38 @@
-#  three sum
+#  Valid Parentheses
 ### Question
 
-Given an integer array nums, return all the triplets 
-[nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, 
-and nums[i] + nums[j] + nums[k] == 0.
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-Notice that the solution set must not contain duplicate triplets.
+An input string is valid if:
+
+1. Open brackets must be closed by the same type of brackets.
+2. Open brackets must be closed in the correct order.
 
 ### Example1 :
 
-Input: nums = [-1,0,1,2,-1,-4]
+Input: s = "()"
 
-Output: [[-1,-1,2],[-1,0,1]]
+Output: true
 
 ### Example 2 :
-Input: nums = []
+Input: s = "()[]{}"
 
-Output: []
+Output: true
 
 ### Example 3 :
-Input: nums = [0]
+Input: s = "(]"
 
-Output: []
+Output: false
 
+### Exmaple 4 :
+Input: s = "([)]"
+
+Output: false
 
 ### Constraints:
 
-- 0 <= nums.length <= 3000
-    
-
-- -105 <= nums[i] <= 105
+- 1 <= s.length <= 104
+- s consists of parentheses only '()[]{}'.
 
 ### 思路
 先想一下用什麼資料結構做
